@@ -1,8 +1,9 @@
 # Valencia heatwaves 2026: residential electricity
 
-Code and data for the residential electricity section of *Attributing the
-economic cost of the summer 2026 heat waves in València to climate change*
-(Riffiod et al.).
+Code and data for the residential electricity section of
+*Attributing the economic cost of the summer 2026 heat waves in València to
+climate change*, by N. Riffiod, A. G. Fernández-Garza, D. Ávila-Velásquez,
+E. Gielen and M. Pulido-Velazquez (2026).
 
 The script estimates the additional air-conditioning consumption of the
 city's primary dwellings caused by the warming attributable to climate change
@@ -83,6 +84,23 @@ with their source:
 - household electricity use: Ajuntament de València, indicator 06153310
   (from Iberdrola), 2023.
 
+### Data sources and licences
+
+- **AEMET**: © AEMET. Information prepared using, among others, data from
+  the Agencia Estatal de Meteorología. Reused under the AEMET terms
+  ([nota legal](https://www.aemet.es/es/nota_legal)); AEMET does not endorse
+  this work.
+- **Red Eléctrica**: prices from www.ree.es (REData), reused under the
+  conditions stated by Red Eléctrica, with indication of the source.
+- **INE**: Own elaboration with data extracted from the INE website,
+  www.ine.es. Reused under CC BY 4.0
+  ([aviso legal](https://ine.es/dyngs/AYU/index.htm?cid=125)); the INE does
+  not endorse this work.
+- **IDAE**: only a few published figures of SPAHOUSEC III are used, with
+  the number of the results file; no IDAE file is redistributed.
+- **Barnes et al. (2026)**: monthly values derived from the authors' data
+  and code (doi:10.5281/zenodo.22228326, CC BY 4.0).
+
 ## Limitations
 
 The slope comes from one year of measurements for the whole Mediterranean
@@ -94,19 +112,25 @@ frigories per m²); it is used for comparison only.
 
 ## References
 
-AEMET (2026). Olas de calor 2026. Note of 9 September 2026.
+AEMET (2026). España registra 61 días bajo ola de calor en 2026, más que en
+ningún otro año. Agencia Estatal de Meteorología, 9 September 2026.
 https://www.aemet.es/es/noticias/2026/09/olas_de_calor_2026
 
-Barnes, C. et al. (2026). Data and code. Zenodo.
-https://doi.org/10.5281/zenodo.22228326
+Barnes, C., Masselot, P., Xi, D., Clarke, B., Rayner, A., Chen, X., Wang, R.,
+Raju, E., Theokritoff, E., Mistry, M., Gasparrini, A., Otto, F.,
+Vicedo-Cabrera, A. M., Konstantinoudis, G. (2026). Heat-related urban
+mortality attributable to human-induced climate change in Europe from 2000
+to 2025. *Nature Health*. https://doi.org/10.1038/s44360-026-00209-8. Data
+and code: https://doi.org/10.5281/zenodo.22228326
 
 IDAE (2026). SPAHOUSEC III: Estudio del consumo energético, equipamiento y
 hábitos de consumo de la energía del sector residencial en España. Instituto
 para la Diversificación y Ahorro de la Energía, NIPO 629-26-001-8.
 https://informesweb.idae.es/spahousec-iii/index.php
 
-INE. Encuesta de Características Esenciales de la Población y las Viviendas
-(ECEPOV) 2021, table 56804.
+INE (2023). Encuesta de Características Esenciales de la Población y las
+Viviendas (ECEPOV) 2021, table 56804. Instituto Nacional de Estadística.
+https://www.ine.es/jaxiT3/Tabla.htm?t=56804
 
 Valor, E., Meneu, V., Caselles, V. (2001). Daily air temperature and
 electricity load in Spain. *Journal of Applied Meteorology* 40(8), 1413-1421.
