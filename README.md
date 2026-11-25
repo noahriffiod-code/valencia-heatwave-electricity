@@ -1,7 +1,7 @@
 # Valencia heatwaves 2026: residential electricity
 
 Code and data for the residential electricity section of
-*Attributing the economic cost of the summer 2026 heat waves in València to
+*Attributing the economic cost of the summer 2026 heatwaves in Valencia to
 climate change*, by N. Riffiod, A. G. Fernández-Garza, D. Ávila-Velásquez,
 E. Gielen and M. Pulido-Velazquez (2026).
 
