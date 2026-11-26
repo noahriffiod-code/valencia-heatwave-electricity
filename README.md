@@ -62,6 +62,14 @@ source("electricity.R")
 Results are printed and written to `output/`. The script reads only the files
 in `data/`; nothing is downloaded.
 
+## Figures of the paper
+
+Figures 3 and 4 of the paper combine the four channels. They are drawn by
+`scripts/03_figures.R` of the
+[mortality repository](https://github.com/noahriffiod-code/valencia-heatwave-mortality),
+which reads `output/electricity_by_wave.csv` of this repository (clone the four repositories
+side by side and run this one first).
+
 ## Data
 
 | File | Content | Source |
